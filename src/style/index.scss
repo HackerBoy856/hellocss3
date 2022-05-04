@@ -81,57 +81,60 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
-    .bg{
-      display: none;
-    }
-    .h5-bg {
-      height: 100%;
-      width: 100%;
-      object-fit: fill;
-      z-index: -1;
-      vertical-align: top;
-    }
-    .galley {
-      position: absolute;
-      width: 30%;
-      height: auto;
-      top: 35%;
-      right: 13%;
-    }
-    .roadMap {
-      position: absolute;
-      width: 30%;
-      height: auto;
-      top: 50%;
-      right: 18%;
-    }
-    .connent {
-      position: absolute;
-      width: 40%;
-      height: auto;
-      top: 60%;
-      right: 3%;
-    }
-    .mininext {
-      position: absolute;
-      width: 30%;
-      height: auto;
-      top: 42%;
-      left: 5%;
-    }
-    .coco {
-      position: absolute;
-      width: 30%;
-      height: auto;
-      top: 62%;
-      left: 7%;
-    }
-    .founders {
-      position: absolute;
-      width: 30%;
-      height: auto;
-      top: 78%;
-      left: 17%;
+    .content{
+      height: calc(100vh - 60px);
+      .bg{
+        display: none;
+      }
+      .h5-bg {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        z-index: -1;
+        vertical-align: top;
+      }
+      .galley {
+        position: absolute;
+        width: 30%;
+        height:  21%;
+        top: 35%;
+        right: 13%;
+      }
+      .roadMap {
+        position: absolute;
+        width: 30%;
+        height: 21%;
+        top: 50%;
+        right: 18%;
+      }
+      .connent {
+        position: absolute;
+        width: 40%;
+        height: 21%;
+        top: 60%;
+        right: 3%;
+      }
+      .mininext {
+        position: absolute;
+        width: 30%;
+        height: 21%;
+        top: 42%;
+        left: 5%;
+      }
+      .coco {
+        position: absolute;
+        width: 30%;
+        height: 21%;
+        top: 62%;
+        left: 7%;
+      }
+      .founders {
+        position: absolute;
+        width: 30%;
+        height: 21%;
+        top: 78%;
+        left: 17%;
+      }
     }
   }
 
@@ -208,61 +211,64 @@ body{
     }
   }
   .main-container {
-    height: 100%;
+    height: 100vh;
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
-    .bg{
-      height: 100%;
-      width: 100%;
-      object-fit: fill;
-      z-index: -1;
-      vertical-align: top;
-    }
-    .h5-bg {
-      display: none;
-    }
-    .galley {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 55%;
-      right: 25%;
-    }
-    .roadMap {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 60%;
-      right: 35%;
-    }
-    .connent {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 70%;
-      right: 8%;
-    }
-    .mininext {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 37%;
-      left: -2%;
-    }
-    .coco {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 73%;
-      left: 8%;
-    }
-    .founders {
-      position: absolute;
-      width: 15%;
-      height: auto;
-      top: 82%;
-      left: 28%;
+    .content{
+      height: calc(100vh - 60px);
+      .bg{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        z-index: -1;
+        vertical-align: top;
+      }
+      .h5-bg {
+        display: none;
+      }
+      .galley {
+        position: absolute;
+        width: 15%;
+        height:  21%;
+        top: 55%;
+        right: 25%;
+      }
+      .roadMap {
+        position: absolute;
+        width: 15%;
+        height: 21%;
+        top: 60%;
+        right: 35%;
+      }
+      .connent {
+        position: absolute;
+        width: 15%;
+        height: 21%;
+        top: 70%;
+        right: 8%;
+      }
+      .mininext {
+        position: absolute;
+        width: 15%;
+        height: 21%;
+        top: 37%;
+        left: -2%;
+      }
+      .coco {
+        position: absolute;
+        width: 15%;
+        height: 21%;
+        top: 73%;
+        left: 8%;
+      }
+      .founders {
+        position: absolute;
+        width: 15%;
+        height: 21%;
+        top: 82%;
+        left: 28%;
+      }
     }
   }
 
@@ -342,12 +348,12 @@ body{
     }
   }
   .main-container {
-    height: 100%;
+    height: 100vh;
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
     .content{
-      height: calc(100% - 60px);
+      height: calc(100vh - 60px);
     .bg{
       vertical-align: top;
       height: 100%;
@@ -361,42 +367,42 @@ body{
     .galley {
       position: absolute;
       width: 15%;
-      height: auto;
+      height:  21%;
       top: 55%;
       right: 25%;
     }
     .roadMap {
       position: absolute;
       width: 15%;
-      height: auto;
+      height: 21%;
       top: 60%;
       right: 35%;
     }
     .connent {
       position: absolute;
       width: 15%;
-      height: auto;
+      height: 21%;
       top: 70%;
       right: 8%;
     }
     .mininext {
       position: absolute;
       width: 15%;
-      height: auto;
+      height: 21%;
       top: 37%;
       left: -2%;
     }
     .coco {
       position: absolute;
       width: 15%;
-      height: auto;
+      height: 21%;
       top: 73%;
       left: 8%;
     }
     .founders {
       position: absolute;
       width: 15%;
-      height: auto;
+      height: 21%;
       bottom: 1%;
       left: 28%;
     }
